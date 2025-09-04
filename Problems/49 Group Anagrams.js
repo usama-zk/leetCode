@@ -21,7 +21,7 @@ var groupAnagrams = function (strs) {
     }
     groups.get(freqString).push(s);
   }
-  groups.forEach((key) => result.push(key));
+  groups.forEach((value) => result.push(value));
   return result;
 };
 console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
