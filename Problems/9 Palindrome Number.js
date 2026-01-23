@@ -14,4 +14,3 @@ var isPalindrome = function (x) {
     }
   }
 };
-console.log(isPalindrome("-121"));
